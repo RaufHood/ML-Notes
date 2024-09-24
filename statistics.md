@@ -17,16 +17,21 @@ The **Probability Mass Function (PMF)** is the probability that a discrete rando
 The integral of these distributions is equal to 1.
 
 ### Uniform distributions.
-$${\displaystyle f(x)={\begin{cases}{\frac {1}{b-a}}&{\text{for }}a\leq x\leq b,\\[8pt]0&{\text{for }}x<a\ {\text{ or }}\ x>b.\end{cases}}}$$
+```math
+{\displaystyle f(x)={\begin{cases}{\frac {1}{b-a}}&{\text{for }}a\leq x\leq b,\\[8pt]0&{\text{for }}x<a\ {\text{ or }}\ x>b.\end{cases}}}
+```
 ![Picture](images/Uniform_Distribution_PDF.png)  
 
 ### Gaussian or normal  distributions.
 The Gaussian distribution is a probability density fuinction for real valued random variables. The average of many samples of a random variable with finite mean and variance is a random variable and it's distribution converges to a normal distribution.
-$${\displaystyle f(x)={\frac {1}{\sqrt {2\pi \sigma ^{2}}}}e^{-{\frac {(x-\mu )^{2}}{2\sigma ^{2}}}}\,.} $$
+```math 
+{\displaystyle f(x)={\frac {1}{\sqrt {2\pi \sigma ^{2}}}}e^{-{\frac {(x-\mu )^{2}}{2\sigma ^{2}}}}\,.}
+```
 Why is it special?  Distributions that are an additive superposition of independent variables are normal distributions.
 
 ## Standard deviation
-Variance $$\sigma^2 = <(x-<x>)^2> = <x^2> - 2 <x>\mu + <\mu^2> = $$
-$$ = <x^2> - \mu^2 = <x^2> - <x>^2 $$ 
+Variance 
+```math \sigma^2 = <(x-<x>)^2> = <x^2> - 2 <x>\mu + <\mu^2> = ```
+```math  = <x^2> - \mu^2 = <x^2> - <x>^2 ```
 The standard deviation is a measure of the amount of variation of a variable about its mean.
-$$ std = \sigma = \sqrt{ <x^2> - <x>^2} $$
+```math std = \sigma = \sqrt{ <x^2> - <x>^2} ```
