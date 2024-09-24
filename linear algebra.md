@@ -6,7 +6,9 @@ A **matrix** is an array of numbers or symbols. In geometry they represent a geo
 
 ## Inner or Dot product
 The inner product of 2 vectors is a scalar and consist of the norm of the 2 vectors scaled by the cos of the relative angle $\theta$.
-$$ x^T y = \sum_i x_i y_i = |x| |y| \cos(\theta) $$
+```math 
+x^T y = \sum_i x_i y_i = |x| |y| \cos(\theta) 
+```
 
 ## Cross product 
 The cross product is a vector multiplication leading to a new vector orthogonal to the 2 vectors and with length of $|x| |y|  \sin(\theta)$,
