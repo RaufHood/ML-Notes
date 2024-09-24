@@ -10,7 +10,9 @@ $$ x^T y = \sum_i x_i y_i = |x| |y| \cos(\theta) $$
 
 ## Cross product 
 The cross product is a vector multiplication leading to a new vector orthogonal to the 2 vectors and with length of $|x| |y|  \sin(\theta)$,
-$$ x \times y = \ = |x| |y| cos(\theta) $$
+$$ 
+x \times y = |x| |y| cos(\theta) \hat{e}_{\perp x,y} 
+$$ 
 For 3 dimensional vectors the cross product is  
 $${\displaystyle x ={\begin{bmatrix}x_{2}y_{3}-x_{3}y_{2}\\x_{3}y_{1}-x_{1}y_{3}\\x_{1}y_{2}-x_{2}y_{1}\end{bmatrix}}}$$
 
