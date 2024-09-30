@@ -13,7 +13,7 @@ The training process consists of fitting a function to the training data to pred
 In unsupervides learning, models learn patterns exclusevely from unlabeled data.
 Such algorithms are clustering ones like k-means, dimensionality reduction, Principal component analysis, autoencoders and Boltzmann Machine Learning.
 
-# Weak or Semi-Supervised Learning
+## Weak or Semi-Supervised Learning
 It uses a smal amount of human labeled data followed by a large amnount of unlabeled data.
 
 ## Self Supervised Learning
