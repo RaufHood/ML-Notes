@@ -53,7 +53,8 @@ with
 ### Model validation
 
 ### Model Evaluation/selection
-Once model selected you can combine the training + validation set and train it once more.
+Once a model is selected you can combine the training + validation set and train it once more.  
+
 
 ### Test the model
 
